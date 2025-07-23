@@ -1,3 +1,5 @@
+// CartItem.jsx - Represents a single item in the cart
+
 import { useDispatch } from 'react-redux';
 import { removeFromCart, updateQuantity } from '../redux/cartSlice';
 

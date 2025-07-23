@@ -1,3 +1,4 @@
+// ProductItem.jsx - Individual product card with "Add to Cart"
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../redux/cartSlice';
 import { Link } from 'react-router-dom';

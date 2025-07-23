@@ -1,3 +1,6 @@
+// ProductList.jsx - Displays a searchable grid of products
+
+
 import useFetchProducts from '../hooks/useFetchProducts';
 import ProductItem from './ProductItem';
 import { useState } from 'react';

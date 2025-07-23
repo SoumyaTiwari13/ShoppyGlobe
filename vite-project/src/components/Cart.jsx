@@ -1,3 +1,5 @@
+// Cart.jsx - Lists all products added to cart
+
 import { useSelector } from 'react-redux';
 import CartItem from './CartItem';
 

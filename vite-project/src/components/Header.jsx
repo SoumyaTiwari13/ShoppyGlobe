@@ -1,3 +1,5 @@
+// Header.jsx - Top navigation bar with cart count
+
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 

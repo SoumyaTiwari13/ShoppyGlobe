@@ -1,3 +1,5 @@
+// ProductDetail.jsx - Shows full info about selected product
+
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import axios from 'axios';

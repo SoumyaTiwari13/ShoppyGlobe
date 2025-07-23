@@ -1,7 +1,9 @@
+// Root component: handles routing and layout
 import { Suspense, lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 
+// Lazy loaded components
 const ProductList = lazy(() => import('./components/ProductList'));
 const ProductDetail = lazy(() => import('./components/ProductDetail'));
 const Cart = lazy(() => import('./components/Cart'));

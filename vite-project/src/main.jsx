@@ -1,3 +1,4 @@
+// Entry point: wraps App with Redux provider and React Router
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
